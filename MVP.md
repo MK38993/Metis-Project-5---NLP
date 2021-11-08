@@ -7,8 +7,11 @@ In order to begin analysis, I collected several thousand tweets with "disaster k
 Next, I saved the 1000 most common/important words into CSV files, which can be found in this repository.
 
 ["Safe" tweets - CountVectorizer](https://github.com/MK38993/Metis-Project-5---NLP/blob/main/safe_1000_words.csv)
+
 ["Disaster" tweets - CountVectorizer](https://github.com/MK38993/Metis-Project-5---NLP/blob/main/disaster_1000_words.csv)
+
 ["Safe" tweets - TFIDFVectorizer](https://github.com/MK38993/Metis-Project-5---NLP/blob/main/safe_1000_words_tf.csv)
+
 ["Disaster" tweets - TFIDFVectorizer](https://github.com/MK38993/Metis-Project-5---NLP/blob/main/disaster_1000_words_tf.csv)
 
 The top 10 terms for each category can be found below.
