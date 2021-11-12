@@ -23,8 +23,8 @@ During preprocessing, I included bigrams in the tokens, and left out tweets with
 
 ## Models
 I considered K-Means clustering and LDA topic models, but settled on LDA because it produced more-coherent clusters.
-I created my LDA model with max_df=0.075 and min_df=0.005, and after filtering out irrelevant words, ended up with 307 features. 
-Using its topic matrix, I then created both soft and hard-clustering algorithms to apply to any text (preferably disaster tweets - the model isn't trained to cluster book-review tweets).
+I created my LDA model with max_df=0.075 and min_df=0.005 (I determined these numbers with trial and error), and after filtering out irrelevant words, ended up with 307 features. 
+Using the model's topic matrix, I then created both soft and hard-clustering algorithms to apply to any text (preferably disaster tweets - the model isn't trained to cluster tweets about gardening).
 
 ## Tools
 Python's NLTK library for text tokenization and lemmatization
