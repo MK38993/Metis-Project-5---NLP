@@ -16,7 +16,7 @@ I downloaded my dataset from a classification contest on [Kaggle](https://www.ka
 Unfortunately, not all disaster-labeled tweets actually refer to a disaster, which creates some clutter in the models. For future work, these unrelated tweets will be removed.
 
 ## Algorithms
-While I did not use the "safe" tweets to construct my model, I conducted sentiment analyses of all tweets and compared the mean polarity and subjectivity across all "safe" and "disaster" tweets.
+While I did not use the "safe" tweets to construct my model, I conducted sentiment analyses of all tweets and compared the mean polarity and subjectivity across all "safe" and "disaster" tweets; the results are shown in my slide presentation.
 
 During preprocessing, I included bigrams in the tokens, and left out tweets with fewer than 4 usable tokens. I also discarded tweets which had identical sequences of tokens - duplicates.
 
